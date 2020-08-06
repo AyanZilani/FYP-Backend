@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "ebike",
+    "password": "trEJvStnRi5sqb66",
+    "name": "db",
+    "user": "ebike",
+    "connector": "mysql"
+  }
+}
