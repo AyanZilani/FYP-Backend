@@ -12,7 +12,8 @@ var modelList = [
     'booking',
     'payment',
     'picture',
-    'startDate'
+    'startDate',
+    'endDate'
 ];
 var ds = app.datasources.db;
 

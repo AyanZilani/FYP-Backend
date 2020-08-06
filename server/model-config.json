@@ -58,5 +58,9 @@
   "startDate": {
     "dataSource": "db",
     "public": true
+  },
+  "endDate": {
+    "dataSource": "db",
+    "public": true
   }
 }
