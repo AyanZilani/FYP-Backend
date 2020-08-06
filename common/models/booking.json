@@ -6,14 +6,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "startDate": {
-      "type": "date",
-      "required": true
-    },
-    "endDate": {
-      "type": "date",
-      "required": true
-    },
     "hours": {
       "type": "number",
       "required": true
@@ -30,6 +22,16 @@
       "type": "belongsTo",
       "model": "bike",
       "foreignKey": "bikeId"
+    },
+    "startDate": {
+      "type": "belongsTo",
+      "model": "startDate",
+      "foreignKey": "startDate"
+    },
+    "endDate": {
+      "type": "belongsTo",
+      "model": "endDate",
+      "foreignKey": "endDate"
     }
   },
   "acls": [],
