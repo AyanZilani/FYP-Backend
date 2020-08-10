@@ -12,7 +12,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "booking": {
+      "type": "belongsTo",
+      "model": "booking",
+      "foreignKey": "bookingId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

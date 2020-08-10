@@ -24,14 +24,14 @@
       "foreignKey": "bikeId"
     },
     "startDate": {
-      "type": "belongsTo",
+      "type": "hasOne",
       "model": "startDate",
-      "foreignKey": "startDate"
+      "foreignKey": "bookingId"
     },
     "endDate": {
-      "type": "belongsTo",
+      "type": "hasOne",
       "model": "endDate",
-      "foreignKey": "endDate"
+      "foreignKey": "bookingId"
     }
   },
   "acls": [],
